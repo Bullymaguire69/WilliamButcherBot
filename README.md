@@ -86,7 +86,7 @@ thehamkercat@arch:~$ python3 -m wbb
 </h3>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/WilliamButcherBot
+thehamkercat@arch:~$ git clone https://github.com/Bullymaguire69/WilliamButcherBot
 thehamkercat@arch:~$ cd WilliamButcherBot
 thehamkercat@arch:~$ pip3 install pyrogram TgCrypto
 thehamkercat@arch:~$ python3 str_gen.py
