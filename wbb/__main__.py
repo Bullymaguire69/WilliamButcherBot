@@ -133,9 +133,19 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-    f"Hey there! My name is {BOT_NAME}. I can manage your "
-    + "group with lots of useful features, feel free to "
-    + "add me to your group."
+    f"Hey there! My name is {BOT_NAME} "
+    + "A telegram group management bot. I'm here to help you to manage your groups.
+    + "I have lots of handy features such as:
+    + "‣ Warning system
+    + "‣ Artificial intelligence
+    + "‣ Flood control system
+    + "‣ Note keeping system
+    + "‣ Filters keeping system
+    + "‣ Approvals and much more.
+
+    + "So what are you waiting for?
+    + "Add me in your groups and give me full rights to make me function well 🔥 "
+    + "add me to your group." [🔥](https://telegra.ph/file/3bfe5272b7d03daf7fbf3.jpg)
 )
 
 
@@ -156,7 +166,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="Support 👨", url="t.me/BullyxSupport"),
         ],
     ]
 )
